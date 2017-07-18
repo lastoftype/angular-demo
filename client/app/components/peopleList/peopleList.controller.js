@@ -9,20 +9,12 @@ class peopleListController {
 
     init() {
         this.getAll()
-
-        this.get(2);
     }
 
     getAll() {
         this.peopleService.getAll().then((data) => {
             console.log({data})
             this.people = data.results;
-        });
-    }
-
-    get(id) {
-        this.peopleService.get(id).then((data) => {
-            console.log({data})
         });
     }
   }
