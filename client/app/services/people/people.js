@@ -11,6 +11,10 @@ class peopleService {
     // http://swapi.co/api/people/1/
     // returns with id of 1
   }
+
+  getAll() {
+    return this.$resource(this.apiUrl).get().$promise;
+  }
 }
 
 export default peopleService;
