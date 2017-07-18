@@ -21,4 +21,8 @@ npm run start
 3. Add method to select individual character (ctrl.activeCharacter = 4; etc.)
 4. Display/sync that data in 2 separate components (side list and main card)
 5. Add method to remove character from nav list on left via button in main card
-6. Add alert to show successful removal
+
+*Bonus*
+
+6. Add alert to show successful removal, or error in removal
+7. Add character images from `client/assets/img` to card
