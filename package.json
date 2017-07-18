@@ -60,7 +60,8 @@
     "create Component": "gen comp",
     "build": "webpack -p --config ./webpack.config.js --progress",
     "startContainer": "npm run build && http-server ./build",
-    "deploy": "node deploy.js"
+    "deploy": "node deploy.js",
+    "postinstall": "npm run start"
   },
   "keywords": [
     "angular",

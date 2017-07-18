@@ -22,4 +22,3 @@ npm run start
 4. Display/sync that data in 2 separate components (side list and main card)
 5. Add method to remove character from nav list on left via button in main card
 6. Add alert to show successful removal
-7. 
